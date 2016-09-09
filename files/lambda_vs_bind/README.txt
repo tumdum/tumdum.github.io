@@ -1,20 +1,13 @@
----
-layout: post
-date: 2015-02-17
-title: "λ vs ≫= code size"
----
-
 Comparison of 3 different ways for binding functions with parameters in c++.
 What is of interest here is vast difference (>2x) between lambdas and binds
 in default (rtti + exceptions) case, and even bigger when both rtti and 
 exceptions are disabled (~3.8x).
 
-See [listing]({{ site.baseurl}}/files/lambda_vs_bind) for files needed to reproduce this locally.
-Calling generate.sh will produce every file seen in stats`* directories.
+See listing of this directory for files needed to reproduce this locally.
+Calling generate.sh will produce every file seen in stats_* directories.
 All results have been generated using "g++ (Ubuntu 4.8.2-19ubuntu1) 4.8.2".
 
 Things of note:
-
  - boost based solution increases in size when compiled without rtti. This is
    because boost rolls its own solution for rtti.
  - but decreases (slightly) when compiled also without exceptions
@@ -25,6 +18,4 @@ Things of note:
  - best case for lambda is more than 4 times smaller than worst case for boost
    and always better significantly than gcc std
 
-For detailed statistics please see [stats_gcc]({{ site.baseurl }}/files/lambda_vs_bind/stats_gcc) directory in listing archive from
-beggining of the post.
-
+For detailed statistics please see stats_gcc directory.

@@ -1,0 +1,84 @@
+0000000000000001 b std::__ioinit
+0000000000000005 t boost::detail::function::void_function_obj_invoker0<wrapNoArgs()::$_0, void>::invoke(boost::detail::function::function_buffer&)
+0000000000000009 t boost::detail::function::void_function_obj_invoker0<wrapNoArgsI()::$_5, void>::invoke(boost::detail::function::function_buffer&)
+000000000000000b W __clang_call_terminate
+000000000000000c t boost::detail::function::void_function_obj_invoker3<wrapBuiltInArgs()::$_1, void, int, double, bool>::invoke(boost::detail::function::function_buffer&, int, double, bool)
+000000000000000f t boost::detail::function::void_function_obj_invoker3<wrapBuiltInArgsI2()::$_7, void, int, double, bool>::invoke(boost::detail::function::function_buffer&, int, double, bool)
+0000000000000010 T wrapNoArgs()
+0000000000000010 T wrapNoArgsI()
+0000000000000010 T wrapStdArgs()
+0000000000000010 T wrapStdArgs2()
+0000000000000010 T wrapStdArgsI()
+0000000000000010 T wrapStdArgsI2()
+0000000000000010 T wrapStdArgsI3()
+0000000000000010 T wrapBuiltInArgs()
+0000000000000010 T wrapBuiltInArgs2()
+0000000000000010 T wrapBuiltInArgsI()
+0000000000000010 T wrapBuiltInArgsI2()
+0000000000000010 T wrapBuiltInArgsI3()
+0000000000000010 r typeinfo for wrapNoArgs()::$_0
+0000000000000010 r typeinfo for wrapNoArgsI()::$_5
+0000000000000010 r typeinfo for wrapStdArgs()::$_3
+0000000000000010 r typeinfo for wrapStdArgs2()::$_4
+0000000000000010 r typeinfo for wrapStdArgsI()::$_9
+0000000000000010 r typeinfo for wrapStdArgsI2()::$_10
+0000000000000010 r typeinfo for wrapStdArgsI3()::$_11
+0000000000000010 r typeinfo for wrapBuiltInArgs()::$_1
+0000000000000010 r typeinfo for wrapBuiltInArgs2()::$_2
+0000000000000010 r typeinfo for wrapBuiltInArgsI()::$_6
+0000000000000010 r typeinfo for wrapBuiltInArgsI2()::$_7
+0000000000000010 r typeinfo for wrapBuiltInArgsI3()::$_8
+0000000000000010 r void boost::function0<void>::assign_to<wrapNoArgs()::$_0>(wrapNoArgs()::$_0)::stored_vtable
+0000000000000010 r void boost::function0<void>::assign_to<wrapNoArgsI()::$_5>(wrapNoArgsI()::$_5)::stored_vtable
+0000000000000010 r void boost::function0<void>::assign_to<wrapStdArgs2()::$_4>(wrapStdArgs2()::$_4)::stored_vtable
+0000000000000010 r void boost::function0<void>::assign_to<wrapStdArgsI3()::$_11>(wrapStdArgsI3()::$_11)::stored_vtable
+0000000000000010 r void boost::function0<void>::assign_to<wrapBuiltInArgs2()::$_2>(wrapBuiltInArgs2()::$_2)::stored_vtable
+0000000000000010 r void boost::function0<void>::assign_to<wrapBuiltInArgsI3()::$_8>(wrapBuiltInArgsI3()::$_8)::stored_vtable
+0000000000000010 r void boost::function2<void, std::vector<std::string, std::allocator<std::string> > const&, std::map<std::string, std::set<int, std::less<int>, std::allocator<int> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > > >::assign_to<wrapStdArgs()::$_3>(wrapStdArgs()::$_3)::stored_vtable
+0000000000000010 r void boost::function2<void, std::vector<std::string, std::allocator<std::string> > const&, std::map<std::string, std::set<int, std::less<int>, std::allocator<int> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > > >::assign_to<wrapStdArgsI2()::$_10>(wrapStdArgsI2()::$_10)::stored_vtable
+0000000000000010 r void boost::function3<void, int, double, bool>::assign_to<wrapBuiltInArgs()::$_1>(wrapBuiltInArgs()::$_1)::stored_vtable
+0000000000000010 r void boost::function3<void, int, double, bool>::assign_to<wrapBuiltInArgsI2()::$_7>(wrapBuiltInArgsI2()::$_7)::stored_vtable
+0000000000000010 r void boost::function3<void, Interface*, std::vector<std::string, std::allocator<std::string> > const&, std::map<std::string, std::set<int, std::less<int>, std::allocator<int> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > > >::assign_to<wrapStdArgsI()::$_9>(wrapStdArgsI()::$_9)::stored_vtable
+0000000000000010 r void boost::function4<void, Interface*, int, double, bool>::assign_to<wrapBuiltInArgsI()::$_6>(wrapBuiltInArgsI()::$_6)::stored_vtable
+0000000000000014 t boost::detail::function::void_function_obj_invoker0<wrapBuiltInArgs2()::$_2, void>::invoke(boost::detail::function::function_buffer&)
+0000000000000014 t boost::detail::function::void_function_obj_invoker4<wrapBuiltInArgsI()::$_6, void, Interface*, int, double, bool>::invoke(boost::detail::function::function_buffer&, Interface*, int, double, bool)
+0000000000000014 r typeinfo name for wrapNoArgs()::$_0
+0000000000000015 r typeinfo name for wrapNoArgsI()::$_5
+0000000000000015 r typeinfo name for wrapStdArgs()::$_3
+0000000000000016 r typeinfo name for wrapStdArgs2()::$_4
+0000000000000016 r typeinfo name for wrapStdArgsI()::$_9
+0000000000000018 r typeinfo name for wrapStdArgsI2()::$_10
+0000000000000018 r typeinfo name for wrapStdArgsI3()::$_11
+0000000000000019 r typeinfo name for wrapBuiltInArgs()::$_1
+000000000000001a r typeinfo name for wrapBuiltInArgs2()::$_2
+000000000000001a r typeinfo name for wrapBuiltInArgsI()::$_6
+000000000000001b t boost::detail::function::void_function_obj_invoker0<wrapBuiltInArgsI3()::$_8, void>::invoke(boost::detail::function::function_buffer&)
+000000000000001b r typeinfo name for wrapBuiltInArgsI2()::$_7
+000000000000001b r typeinfo name for wrapBuiltInArgsI3()::$_8
+0000000000000020 t _GLOBAL__sub_I_boost_lambda.cc
+0000000000000036 W std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_erase(std::_Rb_tree_node<int>*)
+0000000000000042 W std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > >::pair(std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > const&)
+000000000000004f W std::vector<std::string, std::allocator<std::string> >::~vector()
+0000000000000060 W std::_Rb_tree<std::string, std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > >, std::_Select1st<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > >*)
+0000000000000061 t boost::detail::function::functor_manager<wrapNoArgs()::$_0>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+0000000000000061 t boost::detail::function::functor_manager<wrapStdArgs()::$_3>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+0000000000000061 t boost::detail::function::functor_manager<wrapStdArgs2()::$_4>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+0000000000000061 t boost::detail::function::functor_manager<wrapStdArgsI()::$_9>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+0000000000000061 t boost::detail::function::functor_manager<wrapBuiltInArgs()::$_1>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+0000000000000061 t boost::detail::function::functor_manager<wrapBuiltInArgs2()::$_2>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+0000000000000061 t boost::detail::function::functor_manager<wrapBuiltInArgsI()::$_6>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+0000000000000067 W std::_Rb_tree_node<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > >* std::_Rb_tree<std::string, std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > >, std::_Select1st<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > >::_M_create_node<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > const&>(std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > const&)
+000000000000006c t boost::detail::function::functor_manager<wrapNoArgsI()::$_5>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+000000000000006c t boost::detail::function::functor_manager<wrapStdArgsI2()::$_10>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+000000000000006c t boost::detail::function::functor_manager<wrapStdArgsI3()::$_11>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+000000000000006c t boost::detail::function::functor_manager<wrapBuiltInArgsI2()::$_7>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+000000000000006c t boost::detail::function::functor_manager<wrapBuiltInArgsI3()::$_8>::manage(boost::detail::function::function_buffer const&, boost::detail::function::function_buffer&, boost::detail::function::functor_manager_operation_type)
+0000000000000079 W std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_Rb_tree(std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> > const&)
+0000000000000079 W std::_Rb_tree<std::string, std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > >, std::_Select1st<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > >::_Rb_tree(std::_Rb_tree<std::string, std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > >, std::_Select1st<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > > const&)
+0000000000000088 t boost::detail::function::void_function_obj_invoker2<wrapStdArgs()::$_3, void, std::vector<std::string, std::allocator<std::string> > const&, std::map<std::string, std::set<int, std::less<int>, std::allocator<int> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > > >::invoke(boost::detail::function::function_buffer&, std::vector<std::string, std::allocator<std::string> > const&, std::map<std::string, std::set<int, std::less<int>, std::allocator<int> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > >)
+000000000000009b t boost::detail::function::void_function_obj_invoker3<wrapStdArgsI()::$_9, void, Interface*, std::vector<std::string, std::allocator<std::string> > const&, std::map<std::string, std::set<int, std::less<int>, std::allocator<int> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > > >::invoke(boost::detail::function::function_buffer&, Interface*, std::vector<std::string, std::allocator<std::string> > const&, std::map<std::string, std::set<int, std::less<int>, std::allocator<int> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > >)
+000000000000009e t boost::detail::function::void_function_obj_invoker2<wrapStdArgsI2()::$_10, void, std::vector<std::string, std::allocator<std::string> > const&, std::map<std::string, std::set<int, std::less<int>, std::allocator<int> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > > >::invoke(boost::detail::function::function_buffer&, std::vector<std::string, std::allocator<std::string> > const&, std::map<std::string, std::set<int, std::less<int>, std::allocator<int> >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > >)
+00000000000000be t boost::detail::function::void_function_obj_invoker0<wrapStdArgs2()::$_4, void>::invoke(boost::detail::function::function_buffer&)
+00000000000000c7 t boost::detail::function::void_function_obj_invoker0<wrapStdArgsI3()::$_11, void>::invoke(boost::detail::function::function_buffer&)
+00000000000000da W std::_Rb_tree<std::string, std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > >, std::_Select1st<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > >::_M_copy(std::_Rb_tree_node<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > > const*, std::_Rb_tree_node<std::pair<std::string const, std::set<int, std::less<int>, std::allocator<int> > > >*)
+0000000000000105 W std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*)
