@@ -161,4 +161,4 @@ Compilation was done with -Os using "g++ (Ubuntu 4.8.2-19ubuntu1) 4.8.2"
        depends on 37 headers
 ```
 
-[Details](/compilations/)
+[Details]({{ site.baseurl }}/files/compilations.tar.xz)

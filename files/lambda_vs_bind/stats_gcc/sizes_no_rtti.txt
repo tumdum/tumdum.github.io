@@ -1,4 +1,0 @@
--rw-rw-r-- 1 tumdum tumdum 86744 Feb 17 11:18 boost_bind.o
--rw-rw-r-- 1 tumdum tumdum 31768 Feb 17 11:19 boost_lambda.o
--rw-rw-r-- 1 tumdum tumdum 24312 Feb 17 11:19 lambda.o
--rw-rw-r-- 1 tumdum tumdum 39464 Feb 17 11:19 std_bind.o
