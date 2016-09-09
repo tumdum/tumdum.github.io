@@ -1,9 +1,8 @@
-+++
-date = "2014-10-09T20:46:49+02:00"
-draft = false
-title = "cat in different unices"
-
-+++
+---
+date: "2014-10-09T20:46:49+02:00"
+title: "cat in different unices"
+layout: post
+---
 As per sloccount:
 
 ```bash
