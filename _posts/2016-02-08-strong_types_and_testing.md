@@ -1,9 +1,9 @@
-+++
-date = "2016-02-08T21:00:10+02:00"
-draft = false
-title = "Strong types and testing - in Go"
+---
+layout: post
+date: 2016-02-08
+title: "Strong types and testing - in Go"
+---
 
-+++
 This is reimplementation of Haskell code from [bitemyapp](http://bitemyapp.com/posts/2014-11-18-strong-types-and-testing.html), which itself was inspired by [levinotik](http://levinotik.com/strong-types-and-their-impact-on-testing/). Obviously Go has much simpler type system and some of the constructs in Haskell are not possible to express in it. The most important of those are sum types and purity. Yet it is still possible to express quite a lot in Go.
 
 bitemyapp starts with declaring simplest structure to express email, and immediately notices that having all fields to be of type *string* is not the best approach. In Go such a struct would be:

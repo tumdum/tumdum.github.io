@@ -1,8 +1,9 @@
-+++
-date = "2016-03-11T23:00:00+01:00"
-draft = false
-title = "Type level programming"
-+++
+---
+layout: post
+date: 2016-03-11
+title: "Type level programming"
+---
+
 While watching [Typelevel Programming 101: The Subspace of Scala](https://youtu.be/_-J4YRI1rAw) I was reminded of Peano numbers. It's a way to encode natural numbers which is derived from [Peano axioms](https://en.wikipedia.org/wiki/Peano_axioms). Which got me thinking - since I don't know how long I had a feeling that there is almost mechanical translation from subset of Haskell programs to C++ meta programs. Specifically I had in mind programs which use only natural numbers and lists. So let's find out if such relationship is real.
 
 In the rest of the post I will always start with Haskell version, followed by C++ version.

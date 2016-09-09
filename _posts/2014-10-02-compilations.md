@@ -1,9 +1,9 @@
-+++
-date = "2014-10-02T06:03:39+02:00"
-draft = false
-title = "Cost of includes"
+---
+layout: post
+date: 2014-10-02
+title: "Cost of includes"
+---
 
-+++
 For each src/*.cc file there is detailed log in logs/*.cc.txt with:
     - strace summary of syscalls times and number of executions
     - wall clock time it took to compile
