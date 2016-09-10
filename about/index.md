@@ -3,5 +3,5 @@ layout: default
 title: Title
 ---
 Links worth following:
-- [http://cat-v.org/](cat-v)
-- [http://suckless.org/](sickless)
+- [cat-v](http://cat-v.org/)
+- [suckless](http://suckless.org/)
