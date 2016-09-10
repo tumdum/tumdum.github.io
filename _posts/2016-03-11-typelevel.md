@@ -72,7 +72,7 @@ add Zero       rhs = rhs
 add (Next lhs) rhs = Next (add lhs rhs)
 ```
 This is very short in Haskell and very straightforward. In type level C++ it's only slightly longer:
-```C++
+{% highlight c++ %}
 template <typename Lhs, typename Rhs> struct _Add;
 
 template <typename Rhs> struct _Add<Zero, Rhs>
@@ -86,7 +86,7 @@ template <typename Lhs, typename Rhs> struct _Add<Next<Lhs>, Rhs>
 };
 
 template <typename LHS, typename RHS> using Add = typename _Add<LHS, RHS>::type;
-```
+{% endhighlight %}
 
 Testing in Haskell repl shows that it seems to be working:
 ```
