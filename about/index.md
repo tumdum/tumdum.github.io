@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Title
+title: About
 ---
 Links worth following:
 
