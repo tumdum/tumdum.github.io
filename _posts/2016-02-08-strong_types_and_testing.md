@@ -8,16 +8,16 @@ This is reimplementation of Haskell code from [bitemyapp](http://bitemyapp.com/p
 
 bitemyapp starts with declaring simplest structure to express email, and immediately notices that having all fields to be of type *string* is not the best approach. In Go such a struct would be:
 
-```go
+{% highlight go %}
 type Email struct {
 	toAddress     string
 	fromAddress   string
 	emailBody     string
 	recipientName string
 }
-```
+{% endhighlight %}
 Having separate types for each field will make it hard to make a mistake when constructing email. Just like in Haskell, it is easy in Go:
-```go
+{% highlight go %}
 type (
 	ToAddress     string
 	FromAddress   string
@@ -31,9 +31,9 @@ type Email struct {
 	emailBody     EmailBody
 	recipientName RecipientName
 }
-```
+{% endhighlight %}
 bitemyapp tests his code in repl, which we don't have in Go - let's write one unit test:
-```go
+{% highlight go %}
 func TestInitialization(t *testing.T) {
 	to := ToAddress("levi@startup.com")
 	from := FromAddress("chris@website.org")
@@ -60,11 +60,11 @@ func TestInitialization(t *testing.T) {
 		Recipient: name,
 	}
 }
-```
+{% endhighlight %}
 This is still basically the same as Haskell.
 
 Next thing bitemyapp mentions is making this email type abstract. In Haskell that means exporting only type without any way to access its data or construct it from outside of module. Hiding constructor in Go is easy - it's enough to change `Email` to `email` to makes it private. But in contrast to Haskell, in Go it would be still possible to access members of values of that type. To have complete encapsulation (control both construction and data access) we will export only interface which email will satisfy:
-```go
+{% highlight go %}
 type email struct {
 	To        ToAddress
 	From      FromAddress
@@ -83,10 +83,10 @@ type Email interface {
 	EmailBody() EmailBody
 	RecipientName() RecipientName
 }
-```
+{% endhighlight %}
 Next comes smart constructor. To validate email addresses we will use `net/mail`:
 
-```go
+{% highlight go %}
 type (
 	ErrToAddressDidntParse   struct{ reason error }
 	ErrFromAddressDidntParse struct{ reason error }
@@ -118,9 +118,9 @@ func validateAddress(address string) error {
 	_, err := mail.ParseAddress(address)
 	return err
 }
-```
+{% endhighlight %}
 Here we start to diverge from Haskell, at least in terms of succinctness. Thanks to thy way instance of Applicative typeclass for Maybe is [defined](http://hackage.haskell.org/package/base-4.8.2.0/docs/src/GHC.Base.html#line-633), it is possible to express smart constructor in much shorter way. Additionally since Go has no sum types we lose type information in return value, by returning list of any errors. And finally to make this as close to Haskell as possible we diverge from Go idiom of returning error value and return list of errors. Since we still have no repl, here is a test for smart constructor:
-```go
+{% highlight go %}
 func TestSmartConstructor(t *testing.T) {
 	if _, err := NewEmail(ToAddress("PLAID"), FromAddress("TROLOLOL"), body, name); len(err) == 0 {
 		t.Fatal("Malformed email in 'To' field was not detected")
@@ -131,5 +131,5 @@ func TestSmartConstructor(t *testing.T) {
 		t.Fatalf("Correct invocation failed: '%v'", err)
 	}
 }
-```
+{% endhighlight %}
 Lastly we add a way to parse email out of json. This is done with `encoding/json` and whole code is available at [bitbucket.org](http://bitbucket.org/tumdum/email).
