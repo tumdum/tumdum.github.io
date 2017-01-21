@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Title
+title: ~
 ---
 {% for post in site.posts %}
 - [{{post.title | escape }}]({{ post.url | prepend: site.baseurl }})
