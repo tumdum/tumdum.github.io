@@ -5,6 +5,7 @@ title: "Cost of includes"
 ---
 
 For each src/*.cc file there is detailed log in logs/*.cc.txt with:
+
     - strace summary of syscalls times and number of executions
     - wall clock time it took to compile
     - number of header locations which whare tried
