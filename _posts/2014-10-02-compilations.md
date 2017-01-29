@@ -6,11 +6,11 @@ title: "Cost of includes"
 
 For each src/*.cc file there is detailed log in logs/*.cc.txt with:
 
-    - strace summary of syscalls times and number of executions
-    - wall clock time it took to compile
-    - number of header locations which whare tried
-    - number of opened (not unique) headers
-    - number of headers according to gcc -M
+- strace summary of syscalls times and number of executions
+- wall clock time it took to compile
+- number of header locations which whare tried
+- number of opened (not unique) headers
+- number of headers according to gcc -M
 
 Compilation was done with -Os using "g++ (Ubuntu 4.8.2-19ubuntu1) 4.8.2"
 
