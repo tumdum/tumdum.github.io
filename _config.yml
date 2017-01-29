@@ -1,2 +1,4 @@
 name: Test
 markdown: kramdown
+gems:
+      - jekyll-feed
